@@ -8,7 +8,8 @@
     "pippo2": "node -v",
     "pippo3": "mocha -h",
     "pippo4" : "mocha --file pippo.js",
-    "commit": "git add . && git commit -m \"test di modifica da json\" "
+    "addRemote": "git remote add origin https://github.com/TeoSigno88/npmTutorial.git && git branch -M main && git push -u origin main && npm run commit",
+    "commit": "git add . && git commit -m \"test di modifica da json\""
   },
   "author": "",
   "license": "ISC",
