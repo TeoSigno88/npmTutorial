@@ -1,0 +1,12 @@
+- NPM init (inizializza NPM)
+- npm install (es. Mocha)
+
+ la cartella Node_modules viene creata dall'isntallazione di NMP e contiene tutte le librerie (anche Bootstrap, Mocha ecc  tutte insieme)
+quindi bisogna ESCLUDERE LA CARTELLA DA GIT!!!!!
+per escluderli vanno messi in .gitignore!
+
+
+
+package.json contiene gli scripts e dependecies
+package-lock.json contiene esclusivamente le liste di tutte le librerie (Mocha, le dipendenze di Mocha, Bootstrap, le dipendenze di Bootstrap ecc tutto insieme)
+installate
